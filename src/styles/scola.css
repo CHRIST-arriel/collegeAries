@@ -1,0 +1,46 @@
+.mainscola{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+.mainscolacontent{
+    padding: 30px 0;
+    margin-top: 100px;
+}
+.tabgeneral{
+    margin: 30px 0;
+}
+.tabtech{
+    margin: 30px 0;
+    width: 100%;
+}
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin: 0 auto;
+  }
+  
+  th, td {
+    border: 1px solid green;
+    padding: 20px 30px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #d3e8f1;
+    font-weight: bold;
+  }
+  
+  td {
+    background-color: #ffffff;
+  }
+  .droit h2 {
+    color: red;
+  }
+  .droit p{
+    font-size: 19px ;
+    font-weight: 600;
+  }

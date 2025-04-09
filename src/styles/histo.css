@@ -1,0 +1,132 @@
+.banniereAbout{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.521)), url(../assets/bani.jpeg);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.banniereAbout h1{
+    color: #fff;
+}
+.banniereAbout h2{
+    color: #fff;
+}
+.mainhisto{
+    width: 100%;
+}
+.histoire{
+    width: 100%;
+    padding: 25px 0;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.histoirecontent{
+    width: 80%;
+}
+.equipe{
+    width: 100%;
+    padding: 50px 0;
+    background-color: rgb(180, 176, 171);
+}
+.equipeContainer{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+}
+.boxEquipe{
+    width: 30%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+.boxEquipeImage{
+    height: 80%;
+    width: 100%;
+    background-color: black;
+}
+.boxEquipeNom{
+    text-align: center;
+}
+
+/**********************-----------------------------------------------------------------*/
+
+.auto{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 55px 0;
+}
+.autoleft{
+    width: 47%;
+    padding: 30px 0;
+    background-color: yellowgreen;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.autoright{
+    width: 47%;
+    height: 200px;
+    background-color: yellowgreen;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.auto h2{
+    margin: 0 auto;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.auto p{
+    font-size: 20px;
+}
+
+@media (max-width:1030px) {
+    .auto{
+        flex-direction: column;
+        display: flex;
+        gap: 10px;
+    }
+    .autoleft{
+        width: 80%;
+    }
+    .autoright{
+        width: 80%;
+        height: 130px;
+    }
+    
+}
+
+
+@media (max-width:760px) {
+    .auto h2{
+        font-size: 18px;
+    }
+    .auto p{
+        font-size: 15px;
+    }
+}
+@media (max-width:400px) {
+    .auto h2{
+        font-size: 15px;
+    }
+    .auto p{
+        font-size: 12px;
+    }
+    .histoirecontent{
+        width: 95%;
+    }
+}

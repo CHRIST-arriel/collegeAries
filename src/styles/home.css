@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.maihome{
+    width: 100%;
+}
+.banniere{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.521)), url(../assets/bbanniere.png);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    
+    
+}
+.bannierecontent{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bannierecontent h1{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.decouvrir{
+    background-color: rgb(9, 185, 82);
+    padding: 20px 50px;
+    font-size: 20px;
+    border-radius: 35px;
+    font-weight: 600;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+.decouvrir:hover{
+    background-color: rgb(7, 87, 40);
+    cursor: pointer;
+    color: #cac9c9;
+}
+
+/************************************/
+
+.Apropos{
+    padding: 25px 0;
+    width: 100%;
+    
+}
+
+.Aproposcontent{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+
+}
+.Aproposleft{
+    width: 45%;
+}
+.boxtofone{
+    width: 80%;
+    height: 240px;
+    background-color: red;
+}
+.boxtofone img{
+    width: 100%;
+    height: 240px;
+}
+.boxtoftwo{
+    margin-top: 10px;
+    width: 80%;
+    height: 240px;
+    background-color: rgb(0, 0, 0);
+}
+.boxtoftwo img {
+    width: 100%;
+    height: 240px;
+}
+
+.Aproposright{
+    width: 45%;
+}
+.Aproposrighttop h2{
+    margin-bottom: 15px;
+}
+.Aproposrightbottom{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.mission{
+    width: 80%;
+    padding: 15px 0;
+
+}
+
+.missiontop{
+    background-color: rgba(196, 196, 196, 0.205);
+    gap: 15px;
+    padding: 2px 20px;
+    border-radius: 25px;
+    align-items: center;
+    align-content: center;display: flex;justify-content: center;
+}
+.missiontop:hover{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.158);
+}
+.missionbottom{
+    padding: 2px 20px;
+    margin-top: 10px;
+    background-color: rgba(196, 196, 196, 0.205);
+    border-radius: 25px;
+    gap: 15px;
+    align-items: center;
+    align-content: center;display: flex;justify-content: center;
+}
+.missionbottom:hover{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.158);
+}
+.iconcontent{
+    padding: 20px;
+    background-color: rgb(251, 255, 0);
+    border-radius: 50%;
+    align-items: center;
+    align-content: center;
+    display: flex;justify-content: center;
+    font-size: 25px;
+    transition: 0.5s ease;
+}
+.iconcontent:hover{
+    color: #fff;
+    background-color: rgb(7, 192, 7);
+    cursor: pointer;
+}
+.missiontexte h3{
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+
+/**********************************************/
+
+.directeur{
+    width: 100%;
+    padding: 45px 0;
+    background-color: rgba(208, 207, 209, 0.356);
+}
+.directeurcontent{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+}
+
+.directeurtexte{
+    width: 25%;
+    text-align: center;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-right: 0;
+}
+.directeurimage{
+    width: 45%;
+    background-color: #000;
+    height: 300px;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.35);
+}
+
+/************************************************************/
+.pourquoi{
+    width: 100%;
+    padding: 45px 0;
+}
+
+.pourquoicontent{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+.pourquoibox{
+    width: 25%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.boximage{
+    width: 100%;
+    background-color: rgb(38, 219, 219);
+    height: 100%;
+    margin-bottom: 8px;
+    top: 0;
+    border-radius: 15px;
+}
+.boximage img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.boxtexte{
+    text-align: center;
+    font-weight: 700;
+    height: 20%;
+    font-size: 13px;
+    
+}
+
+/************************************************/
+
+
+.formation{
+    width: 100%;
+    height: 50vh;
+}
+
+.code{
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.164);
+}
+.codecontent{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    
+}
+.codebox{
+    border-radius: 15px 15px 0 0;
+    align-items: center;
+    align-content: center;
+    display: flex;flex-direction: column;
+    width: 30%;
+}
+.code h2{
+    font-size: 14px;
+    text-align: center;
+}
+.code h1{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.codeboxtwo{
+    align-items: center;
+    align-content: center;
+    display: flex;flex-direction: column;
+    width: 30%;
+    border-left: 1px solid #000 ;
+    border-right: 1px solid #000 ;
+}
+.codeboxtwo h2{
+    font-size: 14px;
+    text-align: center;
+}
+#ens{
+    text-decoration: underline;
+    color: red;
+    margin-bottom: 2px;
+}
+.codeboxtwo h1{
+    font-size: 20px;
+}
+
+.codeboxthree{
+    align-items: center;
+    align-content: center;
+    display: flex;flex-direction: column;
+    width: 30%;
+}
+.codeboxthree h2{
+    font-size: 14px;
+    text-align: center;
+}
+.codeboxthree h1{
+    font-size: 20px;
+}
+
+
+
+@media (max-width:770px){
+    .banniere h1{
+        font-size: 22px;
+    }
+   
+    .mission{
+        width: 45%;
+        padding: 10px 0;
+    
+    }
+    .missionicon{
+        width: 30%;
+    }
+    .missiontexte{
+        width: 70%;
+    }
+    
+    .missiontop{
+        width: 90%;
+        gap: 7px;
+        padding: 2px 2px;
+        font-size: 13px;
+    }
+    .missionbottom{
+        width: 90%;
+        padding: 2px 2px;
+        margin-top: 10px;
+        gap: 7px;
+        font-size: 13px;
+    }
+    .iconcontent{
+        padding: 10px;
+        font-size: 25px;
+    }
+    
+    .histo{
+        width: 45%;
+        padding: 15px 10px;
+        border-radius: 25px;
+    }
+    .directeurcontent{
+        width: 100%;
+        display: flex;
+        align-content: center;
+        gap: 10px;
+    }
+    .directeurtexte{
+        width: 45%;
+        
+    }
+    
+}
+@media (max-width:650px) {
+    .banniere h1{
+        font-size: 17px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .Aproposcontent{
+        flex-direction: column-reverse;
+    }
+    .Aproposright{
+        flex-direction: column;
+        width: 80%;
+    }
+    .Aproposrightbottom{
+        flex-direction: column;
+    }
+    .mission{
+        width: 100%;
+    }
+    .missiontop{
+        width: 100%;
+        padding: 15px 0;
+        gap: 15px;
+    }
+    .missionbottom{
+        width: 100%;
+        padding: 15px 0;
+        gap: 15px;
+    }
+    .iconcontent{
+        padding: 15px;
+        border-radius: 50%;
+        font-size: 25px;
+    }
+    .missionicon{
+        width: 15%;
+    }
+    .histo{
+        width: 90%;
+        padding: 15px 20px;
+    }
+    .directeurcontent{
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    .Aproposleft{
+        width: 100%;
+        align-items: center;
+        align-content: center;display: flex;
+        justify-content: center; 
+        flex-direction: column;
+    }
+    .boxtof{
+        width: 100%;
+        height: 300px;
+    }
+    .directeurtexte{
+        width: 90%;
+    }
+    .directeurimage{
+        width: 80%;
+    }
+    .pourquoicontent{
+        flex-direction: column;
+    }
+    .pourquoibox{
+        width: 80%;
+        height: 150px;
+    }
+    .prommessecontent p{
+        font-size: 10px;
+    }
+    .prommesse{
+        width: 90%;
+        background-color: rgb(240, 240, 120);
+        padding: 15px 0;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        
+    }
+    
+    
+    .prommessecontent{
+        width: 80%;
+    }
+    .prommessetitle{
+        font-size: 20px;
+        font-weight: 900;
+        margin-bottom: 10px;
+    }
+    
+}
+@media (max-width:380px){
+    .boxtexte{
+        font-size: 10px;
+    }
+    .iconcontent{
+        padding: 10px;
+        font-size: 45px;
+    }
+}
+
+
