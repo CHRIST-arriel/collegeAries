@@ -22,11 +22,11 @@ export default function Guest ({children} : PropsWithChildren){
                     <nav>
                         <ul>
                             <li>  <Link to='/'>Accueil</Link></li>
-                            <li> <Link to='./About'>A propos</Link></li>
+                            <li> <Link to='/Scolarite'>A propos</Link></li>
                             <li> <Link to='/Scolarite'>Scolarité</Link></li>
-                            <li> <Link to='/Actualité'>Actualité </Link></li>
-                            <li> Galerie</li>
-                            <li> <Link to='Contact'> Contact </Link> </li>
+                            <li> <Link to='/Actualite'>Actualité </Link></li>
+                            <li> <Link to='/Galerie'>Galerie</Link></li>
+                            <li> <Link to='/Contact'>Contact </Link></li>
                         </ul>
                     </nav>
                 </div>

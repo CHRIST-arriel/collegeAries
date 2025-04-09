@@ -2,7 +2,7 @@ import Guest from '../layouts/GuestLayout'
 import Pro from '../../assets/pro.jpeg'
 import '../../styles/actualite.css'
 
-function Actualité (){
+function Actualite (){
     return (
         <>
         <Guest>
@@ -24,4 +24,4 @@ function Actualité (){
     )
 }
 
-export default Actualité
+export default Actualite
