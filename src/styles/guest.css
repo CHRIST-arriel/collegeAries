@@ -19,7 +19,7 @@
     align-content: center;
     display: flex;
     justify-content: center;
-    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
 }
 .logo{
     width: 30%;
