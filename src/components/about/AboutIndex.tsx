@@ -74,7 +74,7 @@ Nous vous invitons à nous rejoindre au Collège Aries, où l’apprentissage va
                             2ND CYCLE N°1973 MEN/DEEP DU 07 JUILLET 2018</p>
                     </div>
                 </section>
-
+        
             </div>
 
 

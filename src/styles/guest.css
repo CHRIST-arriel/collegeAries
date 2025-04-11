@@ -29,6 +29,7 @@
     align-content: center;
     display: flex;
     margin-left: 50px;
+    color: rgba(8, 255, 181, 0.959);
 }
 .navbar{
     width: 70%;

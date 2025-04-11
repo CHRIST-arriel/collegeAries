@@ -67,8 +67,8 @@ function Home (){
                       <div className="Aproposright">
                         <div className="Aproposrighttop">
                           <h2>Presentation</h2>
-                          <p>Bienvenue dans l'espace "À propos" du Collège [Nom]. Situé à [lieu], notre établissement 
-                             est un centre d'apprentissage et de développement qui accompagne les élèves depuis [année de création].
+                          <p>Bienvenue dans l'espace "À propos" du Collège Aries. Situé à Dioulakro , notre établissement 
+                             est un centre d'apprentissage et de développement qui accompagne les élèves depuis 2015 .
                              Nous proposons un enseignement de qualité, adapté aux besoins de chaque élève, dans un environnement 
                              stimulant et bienveillant.
                           </p>
