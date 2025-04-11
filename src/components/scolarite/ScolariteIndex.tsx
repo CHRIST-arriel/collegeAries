@@ -1,5 +1,5 @@
 import Guest from "../layouts/GuestLayout"
-
+import Scola from'../../assets/scola.jpeg';
 import '../../styles/scola.css'
 
 function Scolarite (){
@@ -8,7 +8,10 @@ function Scolarite (){
         <Guest>
             <div className="mainscola">
                 <div className="mainscolacontent">
-                    <div className="tabgeneral">
+
+
+                    <div className="image"><img src={Scola} alt="" /></div>
+                    {/*<div className="tabgeneral">
                     <h1>FRAIS D'ECOLAGE ENSEIGNEMENT GENERAL</h1>
                 <table>
                 <thead>
@@ -131,7 +134,7 @@ function Scolarite (){
                                     <h2>Droit d'examen</h2>
                                     <p>Tle : 5 500f CFA / BT 3eme ANNEE : 8 000 CFA</p>
                                 </div>
-                    </div>
+                    </div>*/}
 
                 </div>
             </div>
