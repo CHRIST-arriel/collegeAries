@@ -22,11 +22,11 @@ function Actualite (){
     
      <div className='section'>
         <h1>SECTION DE L'ENSEIGNEMENT GENERAL</h1>
-        <img src={Dev}/>
+        <img src={Tech}/>
       </div>
       <div className='sectiontech'>
         <h1>SECTION DE L'ANNEE DE FORMATION</h1>
-        <img src={Tech} height={600}/>
+        <img src={Dev} height={600}/>
       </div>
         <div className='sectionun'>
           <div className='sectionleft'>
