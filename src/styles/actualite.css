@@ -41,6 +41,74 @@
     width: 100%;
     height: 100%;
 }
+.section h2{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 25px;
+}
+.section{
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+
+}
+.section img{
+border-radius: 15px;
+width: 100%;
+height: 100%;
+}
+.sectiontech{
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+
+}
+.sectiontech h3{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 25px;
+}
+.sectiontech img{
+  width: 100%;
+  height: 100%;
+}
+.sectionun{
+  width: 97%;
+  margin: 0 auto;
+justify-content: center;
+align-items: center;
+align-content: center;
+display: flex;
+gap: 40px;
+padding-top: 30px;
+}
+.sectionleft img{
+justify-content: center;
+align-items: center;
+align-content: center;
+border-radius: 10%;
+border-bottom: 15px;
+}
+.sectionright h4{
+ justify-content: center;
+ align-items: center;
+ align-content: center;
+ font-size: 25px;
+}
+.sectionright p{
+justify-content: center;
+ align-items: center;
+ align-content: center;
+ font-size: 25px;
+}
+
+
 
 /* Pour les grands écrans (desktop) */
 @media screen and (min-width: 1024px) {
@@ -54,6 +122,7 @@
       text-align: center;
       padding: 2rem;
     }
+   
   }
   /* Pour les tablettes */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -83,19 +152,41 @@
       padding: 1rem;
     }
   
-    .bel h1 {
-      font-size: 1.2rem;
+     .bel h1 {
+      margin-top: 15px;
+      font-size: 20px;
+    }
+    .section h1 {
+      margin-top: 15px;
+      font-size: 20px;
+    }
+    .sectiontech h1 {
+      margin-top: 15px;
+      font-size: 20px;
     }
     .colle h2, .jean h3 {
         font-size: 1rem;
-      }
+    }
     
-      .trip, .triplet, .tro {
+    .trip, .triplet, .tro {
         margin-bottom: 1rem;
-      }
+    }
     
-      img {
+    img {
         max-width: 100%;
         height: auto;
-      }
     }
+    .sectionun{
+      margin: 0 auto;
+      flex-direction: column;
+      width: 90%;
+      gap: 2px;
+      margin-bottom: 15px;
+    }
+    .sectionright p{
+      font-size: 15px;
+    }
+    .sectionright h4{
+      font-size: 17px;
+    }
+  }

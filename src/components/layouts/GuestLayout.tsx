@@ -3,6 +3,7 @@ import { IoMenu } from "react-icons/io5";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import '../../styles/guest.css'
+import { IoMdClose } from "react-icons/io";
 
 
 
@@ -30,7 +31,7 @@ export default function Guest ({children} : PropsWithChildren){
                         </ul>
                     </nav>
                 </div>
-                <div className="btnopen" onClick={handleToggleMenu}><IoMenu /></div>
+                <div className="btnopen" onClick={handleToggleMenu}> {isMenuOpen ? <IoMdClose /> :<IoMenu />}</div>
             </div>
         </div>
         
